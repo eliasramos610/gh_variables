@@ -11,8 +11,8 @@ jobs:
   test:
     env: 
       MONGODB_CLUSTER_ADDRESS: database.jxaowjt.mongodb.net
-      MONGODB_DB_USERNAME: natanaelramos610_db_user
-      MONGODB_DB_PASSWORD: h6xz8EmHH0OJKwVt
+      MONGODB_USERNAME: natanaelramos610_db_user
+      MONGODB_PASSWORD: h6xz8EmHH0OJKwVt
     environment: testing
     runs-on: ubuntu-latest
     steps:
