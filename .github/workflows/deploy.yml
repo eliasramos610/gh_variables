@@ -1,12 +1,13 @@
 name: Deployment
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
       - dev
 env:
   MONGODB_DB_NAME: gha-demo
-  PORT: 4000
+  PORT: 8080
 jobs:
   test:
     env: 
